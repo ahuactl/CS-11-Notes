@@ -46,7 +46,7 @@ sqnorm() -> (square(), square())
         y == [3, 1, 4, 5, 9]
         x == [3, 1, 4, 5, 9]
         ```
-## Declarative Programming
+## Declarative and Imperative Programming
 - we declare a function and tells its output
 - related to **pure** mathematical functions
     - no side effects (same input, same output)
@@ -60,6 +60,7 @@ sqnorm() -> (square(), square())
         - if `f(a) = a^2` then we can replace `f(a)` by `a^2`
 - only depends on arguments (referential transparency)
     - expression can be replaced by result
+
 
 - imperative programming
     - new programming paradigm
