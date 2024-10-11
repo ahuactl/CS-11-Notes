@@ -1,6 +1,6 @@
 ## The Environment
 The environment primarly **consists** of:
-- abstract word of values
+- abstract world of values
 - cloud with values
 - call stack
     -  call stack contains frames 
@@ -46,20 +46,20 @@ sqnorm() -> (square(), square())
         y == [3, 1, 4, 5, 9]
         x == [3, 1, 4, 5, 9]
         ```
-- declarative programming
-    - we declare a function and tells its output
-    - related to **pure** mathematical functions
-        - no side effects (same input, same output)
-        - **math** is pretty much a declarative language!
-        - benefits:
-            - programs are completely *compositional*
-            - reasoning is easy (can follow logic)
-            - functions are *independent* of each other
-                - predictable behavior and easy to test
-        - in math equals can be replaced by equals,
-            - if `f(a) = a^2` then we can replace `f(a)` by `a^2`
-    - only depends on arguments (referential transparency)
-        - expression can be replaced by result
+## Declarative Programming
+- we declare a function and tells its output
+- related to **pure** mathematical functions
+    - no side effects (same input, same output)
+    - **math** is pretty much a declarative language!
+    - benefits:
+         - programs are completely *compositional*
+         - reasoning is easy (can follow logic)
+         - functions are *independent* of each other
+             - predictable behavior and easy to test
+    - in math equals can be replaced by equals,
+        - if `f(a) = a^2` then we can replace `f(a)` by `a^2`
+- only depends on arguments (referential transparency)
+    - expression can be replaced by result
 
 - imperative programming
     - new programming paradigm
