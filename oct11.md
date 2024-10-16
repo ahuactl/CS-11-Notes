@@ -31,7 +31,7 @@ sqnorm() -> (square(), square())
 - `.append()` adds a new element at the end of the list
     - `[1, 2, 3].append(4) == [1, 2, 3, 4]`
 - `.pop()` removes the last element of a list and returns the last element
-    - `l = [1, 2, 3]` then `l.pop() = 3` and `l == [1, 2]`
+    - `l == [1, 2, 3]` then `l.pop() == 3` and `l == [1, 2]`
 - modify contents by indexing
 - can also replace by slicing
 - other: `.clear()`, `.extend()`, .`remove()`, `.sort()`
